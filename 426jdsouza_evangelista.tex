@@ -1,0 +1,76 @@
+\documentclass[10pt]{letter}
+
+% to sign: gpg --local-user 0x4AA28F8C55022E47 --clearsign --output=426vgovardhanen_evangelista_signed.pdf --not-dash-escaped 426vgovardhanen_evangelista.pdf
+% to verify: gpg --verify 426vgovardhanen_evangelista_signed.pdf
+
+\usepackage{mnhsletter}
+%\usepackage{siunitx}
+
+\newcommand\firstname{Vasu}
+\newcommand\lastname{Govardhanen}
+\newcommand\subject{he}
+\newcommand\object{him}
+\newcommand\possessive{his}
+\newcommand\reflexive{himself}
+\newcommand\adjective{happy}
+
+\title{Recommendation for \firstname\ \lastname}
+\author{Dennis Evangelista}
+% For letters of recommendation, MBS asks that you do not date your letter
+\date{} 
+%\date{\today}
+%\usepackage[american,inputamerican]{isodate}
+%\date{\printdate{6/17/2021}}
+
+% This also sets the PDF metadata so it is searchable in like Spotlight etc. 
+\hypersetup{
+pdfauthor={Dennis Evangelista},
+pdftitle={Recommendation for \firstname\ \lastname},
+pdfkeywords={\firstname\ \lastname, Manalapan High School, MNHS, Science and Engineering, S\&E, recommendation}}
+
+% for letter closing use this if you wish to sign hardcopy
+\usepackage{designature}
+\digitalsignature{\includesignature}
+\name{Dennis J.~Evangelista, Ph.D.}
+
+\begin{document}
+
+\begin{letter}{% recipient address here (optional, for future envelope use)
+Research Science Institute\\
+Center for Excellence in Education\\
+7918 Jones Branch Drive, Suite 700\\
+McLean, VA 22102
+}
+
+% opening here
+\opening{Recommendation for {\scshape\firstname\ \lastname}:}
+%\raggedright % if you like this sort of thing
+%\setlength{\parindent}{15pt} % if you like this sort of thing
+
+% Keep letter to one page (adjust margins and font size if necessary)
+I am \adjective\ to recommend \firstname\ \lastname\ for admission to the Research Science Institute (RSI) program at MIT.  \firstname\ is a current student in my Science \& Engineering AP Physics C Mechanics class. I have known \firstname\ for two quarters. Although this time is short, I am very familiar with the Science \& Engineering magnet program \subject\ is in, as I am also a graduate of the program. I hold bachelors and masters degrees in mechanical engineering and EECS and a PhD in integrative biology, I am a licensed professional engineer, a former US Navy officer at NAVSEA 08 / Naval Reactors, and a former assistant professor of Weapons, Robotics, and Control Engineering at the US Naval Academy. As a former officer from the Naval Nuclear Propulsion Program, I am familiar with RSI's founding principles as set by ADM Rickover. 
+
+\firstname\ is a leader among his peers. As an example, in my physics/mechanics class, \subject\ broke down difficult concepts for his lab group by explaining to them the mathematics behind work and the dot product. He consistently asks nuanced, out-of-scope questions in class, to relate physics to what he consideres ``pure'' mathematics, including the Lagrangian functional, Hamiltonian mechanics, etc. While this can be distracting to the class, it shows \firstname's willingness to engage at a deep level with physics. The class is still new to the material and adjusting to the level of difficulty; \firstname followed up a disappointing first physics test by studying with much more vigor for the second and scoring significantly higher. Outside of class, \firstname\ enjoys reading difficult and challenging advanced physics and math books, which is remarkable considering many students never even look at the assigned textbook. \firstname\ hopes to become become more well-rounded in both physics and mathematics. 
+
+The Science \& Engineering program that \firstname\ is in is a very rigorous magnet program in which students take advanced science and mathematics courses as preparation for STEM majors. As you can see from \possessive\ transcripts, \firstname\ is concurrently in several other challenging classes including AP Computer Science and AP Calculus BC. \firstname\ has the right mindset to study advanced physics and mathematics, and needs the opportunity to cross-pollinate with other like-minded students. An advanced summer experience like RSI would benefit \object\ greatly, and \subject\ would be a strong contributor to the program. 
+
+% closing here
+%\closing{Respectfully,}
+\noclosing
+
+%\ps{post script here}
+%\encl{enclosure here}
+\end{letter}
+
+\end{document}
+
+
+
+
+%I attached the resume in the previous email. Here are the bullet points:
+%Pedagogy + Leadership: I have broken down difficult concepts for peers (such as those in my lab group) by explaining to them the mathematical intuition behind work (i.e. the dot product signifying that only the component of force acting in the direction of displacement contributes to the work done).
+%Curiosity: I have asked nuanced, out-of-scope questions in class in hopes to relate physics back to the subject of pure mathematics and reformulate it into more comfortable terms (e.g. the Lagrangian functional, the usage of symplectic manifolds in Hamiltonian mechanics, etc.) 
+%Perseverance: I followed up a disappointing first physics test by studying with much more vigor for the second and scoring significantly higher (93% compared to 83%). I also have maintained an overall apt average in the class.
+%Outside of School Physics Education: I have read Introduction to Electrodynamics by Schwarz and the Feynman Lectures out of curiosity (alongside a plethora of pure mathematics books such as Eisenbud, Hartshorne) in order to become more well-rounded in both physics and mathematics. 
+
+
